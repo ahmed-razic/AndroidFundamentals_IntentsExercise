@@ -1,3 +1,20 @@
 <resources>
+
     <string name="app_name">Intents Exercise</string>
+
+    <!--    Values for MainActivity   -->
+    <string name="send_button">Send</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="reply_from_receiver">Reply from receiver</string>
+    <string name="message_sent_successfully">Message sent successfully</string>
+
+
+    <!--    Values for SecondActivity   -->
+
+    <string name="message_from_sender">Message from sender</string>
+    <string name="message_received_successfully">Message received successfully</string>
+    <string name="reply">Reply</string>
+    <string name="enter_your_reply">Enter your reply</string>
+
+
 </resources>
