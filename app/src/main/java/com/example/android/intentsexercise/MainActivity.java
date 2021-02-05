@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 mHeader2ActivityOneTextView.setVisibility(View.VISIBLE);
                 assert data != null;
                 String reply1 = "REQUEST no: " + REQUEST_ONE + ", " + data.getStringExtra(SecondActivity.EXTRA_REPLY).toString();
-                mRepliedMessageTextView.setText(data.getStringExtra(SecondActivity.EXTRA_REPLY).toString());
+                mRepliedMessageTextView.setText(reply1);
                 mMessageSentEditText.setText("");
             }
         } else if (requestCode == REQUEST_TWO) {

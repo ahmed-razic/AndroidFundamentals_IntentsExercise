@@ -32,6 +32,8 @@ public class SecondActivity extends AppCompatActivity {
         Intent receivedIntent = getIntent();
         String message = receivedIntent.getStringExtra(MainActivity.EXTRA_SEND);
         mReceivedMessageTextView.setText(message);
+        mHeader1ActivityTwoTextView.setVisibility(View.VISIBLE);
+        mHeader2ActivityTwoTextView.setVisibility(View.VISIBLE);
     }
 
     public void replyMessage(View view) {
@@ -41,5 +43,6 @@ public class SecondActivity extends AppCompatActivity {
         replyIntent.putExtra(EXTRA_REPLY, reply);
 
         setResult(RESULT_OK, replyIntent);
+        finish();
     }
 }
